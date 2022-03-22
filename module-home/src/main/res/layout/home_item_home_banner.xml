@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.youth.banner.Banner
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            app:banner_auto_loop="true"
+            app:banner_indicator_gravity="right"
+            app:banner_indicator_normal_color="@color/colorPrimaryVariant"
+            app:banner_indicator_selected_color="@color/colorPrimary"
+            app:banner_radius="5dp" />
+    </FrameLayout>
+</layout>

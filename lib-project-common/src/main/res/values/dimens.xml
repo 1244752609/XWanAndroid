@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Your custom size defind by references, can be writted in anywhere, any module, any values/*.xml, for example: -->
+    <dimen name="common_margin">16dp</dimen>
+
+    <!--===================toolbar高度===================-->
+    <dimen name="title_height">48dp</dimen>
+    <dimen name="title_margin">58dp</dimen>
+    <!--===================toolbar高度===================-->
+</resources>

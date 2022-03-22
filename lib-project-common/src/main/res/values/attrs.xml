@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleBar">
+        <attr name="barTitleText" format="string" />
+        <attr name="barTitleTextColor" format="reference" />
+        <attr name="barTitleTextSize" format="dimension" />
+        <attr name="barIsShowRight" format="boolean" />
+        <attr name="barRightText" format="string" />
+        <attr name="barRightTextColor" format="reference" />
+        <attr name="barRightTextSize" format="dimension" />
+        <attr name="barIsBack" format="boolean" />
+        <attr name="barBackIcon" format="reference" />
+        <attr name="barIsAddBarHeight" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ara.web">
+
+    <application>
+        <activity
+            android:name=".ui.page.WebActivity"
+            android:launchMode="singleTop"
+            android:exported="false" />
+    </application>
+
+</manifest>

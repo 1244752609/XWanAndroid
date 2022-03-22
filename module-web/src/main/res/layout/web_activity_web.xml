@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="vm"
+            type="com.ara.web.ui.state.WebActivityViewModel" />
+
+        <variable
+            name="webViewClient"
+            type="com.just.agentweb.WebViewClient" />
+
+        <variable
+            name="webChromeClient"
+            type="com.just.agentweb.WebChromeClient" />
+
+        <variable
+            name="click"
+            type="com.ara.web.ui.page.WebActivity.ClickProxy" />
+
+        <variable
+            name="webLayout"
+            type="com.ara.web.ui.view.XWebLayout" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.page.WebActivity">
+
+        <com.ara.project_common.ui.view.TitleBar
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:barRightOnClickListener="@{()->click.more()}"
+            app:barRightText="@string/more"
+            app:barTitleText="@{vm.title}"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            webChromeClient="@{webChromeClient}"
+            webLayout="@{webLayout}"
+            webUrl="@{vm.webUrl}"
+            webViewClient="@{webViewClient}"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

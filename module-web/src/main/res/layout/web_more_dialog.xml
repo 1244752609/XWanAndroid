@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="vn"
+            type="com.ara.web.ui.state.WebMoreDialogViewModel" />
+
+        <variable
+            name="click"
+            type="com.ara.web.ui.page.WebMoreDialog.ClickProxy" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_top_round_16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:onClick="@{()->click.browserOpen()}"
+            android:text="@string/web_browser_open"
+            android:textColor="@color/text_33"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_grey" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:onClick="@{()->click.cancel()}"
+            android:text="@string/cancel"
+            android:textColor="@color/text_99"
+            android:textSize="14sp" />
+    </LinearLayout>
+</layout>

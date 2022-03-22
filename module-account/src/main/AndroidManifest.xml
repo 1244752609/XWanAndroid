@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ara.account">
+
+    <application>
+        <activity
+            android:name=".ui.page.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.page.LoginActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

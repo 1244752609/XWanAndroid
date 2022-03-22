@@ -1,0 +1,8 @@
+<resources>
+    <string name="acc_app_name">module-user</string>
+    <string name="acc_login">登录</string>
+    <string name="acc_register">注册</string>
+    <string name="acc_input_username">请输入用户名</string>
+    <string name="acc_input_password">请输入密码</string>
+    <string name="acc_input_repassword">请再次输入密码</string>
+</resources>

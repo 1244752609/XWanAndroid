@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    tools:ignore="HardcodedText">
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="@dimen/title_height"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="15dp"
+        android:src="@mipmap/ic_back_black" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/title_margin"
+        android:layout_marginEnd="@dimen/title_margin"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="1"
+        android:text="标题"
+        android:textColor="@color/text_33"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvRight"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end|center"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="更多"
+        android:textColor="@color/text_33"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</FrameLayout>

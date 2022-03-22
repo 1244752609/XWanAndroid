@@ -1,0 +1,40 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+
+    resolutionStrategy{
+        eachPlugin{
+            if (requested.id.id == 'com.alibaba'){
+                useModule('com.alibaba:arouter-register:1.0.2')
+            }
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+rootProject.name = "XWanAndroid"
+include ':app'
+include ':lib-base'
+include ':lib-common'
+include ':lib-db'
+include ':lib-network'
+include ':lib-widget'
+include ':module-home'
+include ':module-account'
+include ':module-mine'
+include ':module-project'
+include ':module-public'
+include ':module-square'
+include ':module-web'
+include ':lib-project-common'
+include ':module-copy'

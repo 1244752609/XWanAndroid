@@ -1,0 +1,10 @@
+<resources>
+<!--    <string name="app_name">XWanAndroid</string>-->
+
+    <string name="tab1">Home</string>
+    <string name="tab2">Project</string>
+    <string name="tab5">Mine</string>
+    <string name="tab4">Public</string>
+    <string name="tab3">Square</string>
+
+</resources>

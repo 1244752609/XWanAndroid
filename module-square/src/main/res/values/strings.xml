@@ -1,0 +1,5 @@
+<resources>
+    <string name="squ_app_name">module-square</string>
+    <string name="squ_system">体系</string>
+    <string name="squ_navigation">导航</string>
+</resources>

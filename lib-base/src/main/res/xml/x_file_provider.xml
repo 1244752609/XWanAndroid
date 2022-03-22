@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- <files-path>：内部存储空间应用私有目录下的 files/ 目录，等同于 Context.getFilesDir() 所获取的目录路径 -->
+    <!-- <cache-path>：内部存储空间应用私有目录下的 cache/ 目录，等同于 Context.getCacheDir() 所获取的目录路径 -->
+    <!-- <external-path>：外部存储空间根目录，等同于 Environment.getExternalStorageDirectory() 所获取的目录路径 -->
+    <!-- <external-files-path>：外部存储空间应用私有目录下的 files/ 目录，等同于 Context.getExternalFilesDir(null) 所获取的目录路径 -->
+    <!-- <external-cache-path>：外部存储空间应用私有目录下的 cache/ 目录，等同于 Context.getExternalCacheDir() -->
+
+    <!-- external storage  外部存储-->
+    <!-- Environment.getExternalStorageDirectory()   SD根目录:/mnt/sdcard/ (6.0后写入需要用户授权)-->
+    <!-- context.getExternalFilesDir(dir)         路径为:/mnt/sdcard/Android/data/< package name >/files/… -->
+    <!-- context.getExternalCacheDir()	             路径为:/mnt/sdcard//Android/data/< package name >/cach/…-->
+
+    <!-- internal storage  内部存储-->
+    <!-- context.getFilesDir()    路径是:/data/data/< package name >/files/… -->
+    <!-- context.getCacheDir()    路径是:/data/data/< package name >/cach/… -->
+
+    <!-- path是指子目录 -->
+    <!-- name属性相当于这些路径的别名，通过name可以获取到相对应的路径-->
+    <files-path name="files" path="." />
+    <cache-path name="cache" path="." />
+</paths>

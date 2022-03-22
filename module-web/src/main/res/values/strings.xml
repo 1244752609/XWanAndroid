@@ -1,0 +1,4 @@
+<resources>
+    <string name="web_app_name">module-web</string>
+    <string name="web_browser_open">在浏览器打开</string>
+</resources>

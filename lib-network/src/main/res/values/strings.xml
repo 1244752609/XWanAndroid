@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="unknown_error">未知错误</string>
+    <string name="parse_error">解析错误</string>
+    <string name="network_error">网络错误</string>
+    <string name="unauthorized">操作未授权</string>
+    <string name="forbidden">请求被拒绝</string>
+    <string name="not_found">资源不存在</string>
+    <string name="request_timeout">服务器执行超时</string>
+    <string name="internal_server_error">服务器内部错误</string>
+    <string name="service_unavailable">服务器不可用</string>
+    <string name="protocol_error">协议出错</string>
+    <string name="certificate_error">证书出错</string>
+    <string name="connection_timeout">连接超时</string>
+    <string name="unknown_host">主机地址未知</string>
+    <string name="system_busy">系统繁忙</string>
+    <string name="password_error">密码错误</string>
+    <string name="missing_parameter">缺少参数</string>
+    <string name="login_overdue">登录过期</string>
+
+    <string name="data_error">数据异常</string>
+    <string name="not_net">无网路</string>
+    <string name="net_not_helpful">网络不给力</string>
+
+    <string name="error_network_desertion">网络开小差，请稍后再试！</string>
+    <string name="error_request_failure">请求异常，请稍后再试！</string>
+    <string name="error_parameter_error">参数错误</string>
+    <string name="error_login_overdue">登录已过期，请重新登录</string>
+
+</resources>

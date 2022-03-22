@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/Study/XWanAndroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.145" />
+        <entry key="..\:/Project/Study/XWanAndroid/app/src/main/res/drawable/bottom_icon_color.xml" value="0.145" />
+        <entry key="..\:/Project/Study/XWanAndroid/app/src/main/res/drawable/bottom_navigation_item.xml" value="0.1265" />
+        <entry key="..\:/Project/Study/XWanAndroid/app/src/main/res/drawable/ic_launcher_background.xml" value="0.145" />
+        <entry key="..\:/Project/Study/XWanAndroid/app/src/main/res/drawable/splash_bg.xml" value="0.145" />
+        <entry key="..\:/Project/Study/XWanAndroid/app/src/main/res/layout/activity_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/app/src/main/res/layout/activity_splash.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/app/src/main/res/menu/bottom_nav_menu.xml" value="0.26695842450765866" />
+        <entry key="..\:/Project/Study/XWanAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.145" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-base/src/main/res/drawable/bg_round_10dp_white.xml" value="0.145" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-base/src/main/res/drawable/btn_pressed.xml" value="0.145" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-base/src/main/res/drawable/btn_white.xml" value="0.123" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-common/src/main/res/drawable/ic_default_image.xml" value="0.145" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-network/src/main/res/drawable/ic_default_image.xml" value="0.145" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-project-common/src/main/res/drawable/bg_round_border_white_1dp.xml" value="0.123" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-project-common/src/main/res/drawable/bg_white_top_16dp.xml" value="0.1" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-project-common/src/main/res/drawable/btn_label.xml" value="0.123" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-project-common/src/main/res/drawable/btn_primary.xml" value="0.145" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-project-common/src/main/res/drawable/splash_bg.xml" value="0.145" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-project-common/src/main/res/layout/dialog_upgrade.xml" value="0.22592592592592592" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-project-common/src/main/res/layout/state_bar_view.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-project-common/src/main/res/layout/title_bar.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-project-common/src/main/res/layout/view_load_state.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-project-common/src/main/res/menu/bottom_nav_menu.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-widget/src/main/res/layout/dialog_loading.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-widget/src/main/res/layout/dialog_upgrade.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/lib-widget/src/main/res/layout/dialog_x_prompt.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-account/src/main/res/layout/acc_activity_login.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-account/src/main/res/layout/acc_activity_register.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-copy/src/main/res/layout/copy_activity_main.xml" value="0.24427083333333333" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-home/src/main/res/layout/home_activity_home.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-home/src/main/res/layout/home_activity_search.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-home/src/main/res/layout/home_activity_search_list.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-home/src/main/res/layout/home_frament.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-home/src/main/res/layout/home_frament_home.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-home/src/main/res/layout/home_item_home_article.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-home/src/main/res/layout/home_item_home_banner.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-home/src/main/res/layout/home_item_label.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-home/src/main/res/layout/home_item_search.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/drawable/bg_white_top_round_16dp.xml" value="0.123" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/activity_language.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/copy_activity_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_activity_integral_rank.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_activity_language.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_activity_mine.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_activity_my_collect.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_activity_my_integral.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_activity_my_share.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_activity_open_project.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_activity_settings.xml" value="0.264" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_fragment_mine.xml" value="0.2" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_item_integral.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_item_integral_rank.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_item_my_collect.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/mine_item_my_share.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-mine/src/main/res/layout/squ_item_integral_rank.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-project/src/main/res/layout/home_frament_home.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-project/src/main/res/layout/home_item_home_banner.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-project/src/main/res/layout/pro_activity_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-project/src/main/res/layout/pro_classify_dialog.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-project/src/main/res/layout/pro_frament_project.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-project/src/main/res/layout/pro_item_project_classify.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-public/src/main/res/layout/activity_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-public/src/main/res/layout/pro_activity_project.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-public/src/main/res/layout/pro_item_project_classify.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-public/src/main/res/layout/pub_activity_main.xml" value="0.115625" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-public/src/main/res/layout/pub_activity_public.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-public/src/main/res/layout/pub_author_dialog.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-public/src/main/res/layout/pub_frament_ppublic.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-public/src/main/res/layout/pub_frament_public.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-public/src/main/res/layout/pub_item_public.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-public/src/main/res/layout/pub_item_public_author.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-square/src/main/res/layout/copy_activity_main.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-square/src/main/res/layout/squ_activity_square.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-square/src/main/res/layout/squ_activity_square_list.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-square/src/main/res/layout/squ_fragment_navigation.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-square/src/main/res/layout/squ_fragment_square.xml" value="0.21982758620689655" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-square/src/main/res/layout/squ_item_label.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-square/src/main/res/layout/squ_item_navigation.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-square/src/main/res/layout/squ_item_square.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-user/src/main/res/layout/home_frament_home.xml" value="0.115625" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-user/src/main/res/layout/user_activity_login.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-web/src/main/res/layout/web_activity_web.xml" value="0.1" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-web/src/main/res/layout/web_agentweb_error_page.xml" value="0.14705882352941177" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-web/src/main/res/layout/web_more_dialog.xml" value="0.25885416666666666" />
+        <entry key="..\:/Project/Study/XWanAndroid/module-web/src/main/res/layout/web_view.xml" value="0.25885416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

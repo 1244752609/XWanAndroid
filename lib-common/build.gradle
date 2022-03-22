@@ -1,0 +1,71 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        minSdk 23
+        targetSdk 31
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    //开启dataBinding
+    dataBinding {
+        enabled true
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    //日志工具
+    //https://github.com/orhanobut/logger
+    api 'com.orhanobut:logger:2.2.0'
+
+    //Gson工具
+    //https://github.com/google/gson
+    api 'com.google.code.gson:gson:2.9.0'
+
+    //https://github.com/ReactiveX/RxJava
+    api 'io.reactivex.rxjava3:rxjava:3.0.11'
+    //https://github.com/ReactiveX/RxAndroid
+    api 'io.reactivex.rxjava3:rxandroid:3.0.0'
+
+    //图片
+    //https://github.com/bumptech/glide
+    api 'com.github.bumptech.glide:glide:4.13.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
+    //https://github.com/wasabeef/glide-transformations
+    api 'jp.wasabeef:glide-transformations:4.3.0'
+    //鲁班图片压缩工具
+    //https://github.com/Curzibn/Luban
+    api 'top.zibin:Luban:1.1.8'
+
+    //腾讯存储
+    //https://github.com/Tencent/MMKV
+    api 'com.tencent:mmkv-static:1.2.2'
+
+    //安卓设备唯一标识
+    //https://github.com/gzu-liyujiang/Android_CN_OAID
+    api 'com.github.gzu-liyujiang:Android_CN_OAID:4.2.3'
+
+    //处理生命周期
+    api 'androidx.lifecycle:lifecycle-common-java8:2.4.1'
+
+    //https://github.com/Blankj/AndroidUtilCode
+    api 'com.blankj:utilcodex:1.31.0'
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="pub_app_name">module-public</string>
+    <string name="pub_public">公众号</string>
+    <string name="pub_author">作者</string>
+</resources>

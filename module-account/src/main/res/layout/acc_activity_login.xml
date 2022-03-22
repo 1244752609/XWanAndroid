@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="vm"
+            type="com.ara.account.ui.state.LoginActivityViewModel" />
+
+        <variable
+            name="click"
+            type="com.ara.account.ui.page.LoginActivity.ClickProxy" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.ara.project_common.ui.view.TitleBar
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:barRightOnClickListener="@{()->click.register()}"
+            app:barRightText="@string/acc_register"
+            app:barRightVisible="@{!vm.isReLogin}"
+            app:barTitleText="@string/acc_login"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_username"
+            drawable_radius="@{12}"
+            drawable_strokeColor="@{0xffeeeeee}"
+            drawable_strokeWidth="@{1}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/acc_input_username"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLength="16"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="@={vm.username}"
+            android:textColor="@color/text_33"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title" />
+
+        <EditText
+            android:id="@+id/et_password"
+            drawable_radius="@{12}"
+            drawable_strokeColor="@{0xffeeeeee}"
+            drawable_strokeWidth="@{1}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/acc_input_password"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:maxLength="16"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="@={vm.password}"
+            android:textColor="@color/text_33"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_username" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:onClick="@{()->click.login()}"
+            android:text="@string/acc_login"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_password" />
+
+        <com.ara.project_common.ui.view.LoadStateView
+            android:id="@+id/load_state"
+            loadState="@{vm.loadState}"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

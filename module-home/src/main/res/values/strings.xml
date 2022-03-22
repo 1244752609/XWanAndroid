@@ -1,0 +1,7 @@
+<resources>
+    <string name="home_app_name">module-home</string>
+    <string name="home_home">首页</string>
+    <string name="home_input_search_keyword">请输入搜索关键字</string>
+    <string name="home_clean_record">清除记录</string>
+    <string name="home_hot_search">热门搜索</string>
+</resources>
